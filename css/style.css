@@ -1,0 +1,151 @@
+body{
+	background: #000000 url('http://s1.1zoom.me/big3/525/Planets_452125.jpg') no-repeat;
+	background-size:cover;
+
+}
+@font-face{
+	font-family: Space-X;
+    src: url(../fonts/alien_league/alienleague.ttf);
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+a:hover{
+	text-decoration: none;
+	text-shadow: 0 0px 5px #6421d0;
+	transition: 300ms;
+	color:white;
+}
+#navbar{
+	height: 55px;
+	background: linear-gradient(to left,#281334b3,#17193299);
+	margin-top:55px;
+	border-bottom: 3px solid white;
+	border-top: 3px solid white;
+	background-size:cover;
+}
+#navbar ul {
+	text-align: right;
+	margin-top: 8px;
+	font-weight: bold;
+}
+#navbar ul li{
+	list-style: none;
+	font-family: Space-X;
+	font-size: 22px;
+	display:inline;
+}
+#navbar ul a{
+	padding: 0 10px 0 10px;
+}
+#navbar ul a::before{
+	content:" ~ ";
+}
+#navbar ul a::after{
+	content:" ~ ";
+}
+.logo h1{
+	font-family: Space-X;
+	margin: 0;
+	margin-top: 5px;
+	color: white;
+}
+.logo h1:hover{
+	text-shadow: 0 0px 5px #ffc200;
+	transition: 300ms;
+}
+.content-page{
+	margin-top: 75px;
+}
+.content-page .col-md-8{
+	background: linear-gradient(to bottom left,#281334b3,#17193299);
+	height: 100%;
+	padding: 0;
+}
+.block-1{
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	font-size: 30px;
+	text-align: center;
+	font-family: Space-X;
+	height: 52px;
+	margin-bottom: 50px;
+}
+.block-1 a{
+	padding-top: 3px;
+	display: block;
+}
+.block-1:hover{
+	border-top: 2px double #fff;
+	border-bottom: 2px double #fff;
+	border-width: 5px;
+
+}
+.block-1:hover a{
+	padding-top:0;
+	transition: 0ms;
+}
+
+td{
+	border: 1px solid white;
+	height: 117px;
+	width: 117px;
+	background: #1e1d1db3;
+	text-align: center;
+}
+td img{
+	filter: invert(1);
+	width: 75px;
+}
+td:hover{
+	background: #f003;
+	transition:300ms;
+}
+td img:hover{
+	animation: infinite 2s moveWars;
+}
+@keyframes moveWars{
+	0%{
+		margin-top: 1px;
+		margin-left:2px;
+	}
+
+	50%{
+		margin-top: 8px;
+		margin-left: 8px;
+	}
+	100%{
+		margin-top: 1px;
+		margin-left:2px;
+	}
+}
+.news img{
+	width: 100%;
+	border: 2px solid white;
+	border-radius: 2px;
+}
+.news img:hover{
+	box-shadow: 0 0 5px 0 white;
+	transition:300ms;
+}
+.tuile{
+	text-align: center;
+	border: 2px solid white;
+	border-radius: 2px;
+	margin-top: 50px;
+}
+.tuile img{
+	width: 100%;
+}
+.footer{
+	border-top: 2px solid white;
+	height: 50px;
+	background: linear-gradient(to left,#281334b3,#17193299,#281334b3);
+	margin-top: 75px;
+	color: white;
+}
+.footer p{
+	margin-top: 15px;
+	font-family: Space-X;
+}
